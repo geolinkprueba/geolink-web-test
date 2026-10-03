@@ -50,6 +50,82 @@
                 </a>
             </div>
         </div>
+       <!-- SECCIÓN DE PREGUNTAS FRECUENTES (FAQ) & SOPORTE -->
+    <section id="faq" class="py-24 bg-[#0b0f19] relative border-t border-slate-800/60">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-[#00f2fe] font-bold mb-3">Soporte y Transparencia</h2>
+                <h3 class="text-3xl sm:text-4xl font-extrabold text-white">Preguntas Frecuentes sobre Geolink</h3>
+                <p class="text-slate-400 mt-4">Todo lo que necesitas saber sobre nuestra tecnología inalámbrica fija (FWA), instalaciones en zonas urbanas y rurales de Girardota.</p>
+            </div>
+
+            <!-- ACORDEÓN DE PREGUNTAS -->
+            <div class="space-y-4">
+                
+                <!-- Pregunta 1 -->
+                <div class="bg-[#131c2e]/80 backdrop-blur rounded-2xl border border-slate-800 overflow-hidden transition">
+                    <button onclick="toggleFaq(1)" class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-white text-base">¿Cómo funciona el internet inalámbrico (FWA) en veredas y fincas?</span>
+                        <span id="icon-1" class="text-[#00f2fe] font-extrabold text-xl transition-transform duration-300">+</span>
+                    </button>
+                    <div id="faq-1" class="hidden px-6 pb-5 text-sm text-slate-400 leading-relaxed border-t border-slate-800/50 pt-4">
+                        Instalamos una antena receptora en un punto alto de tu propiedad con línea de vista directa (LOS) hacia nuestras estaciones base estratégicamente ubicadas en las montañas del norte del Aburrá. Esto garantiza una conexión robusta, de baja latencia y totalmente independiente del estado de las redes de cable tradicionales.
+                    </div>
+                </div>
+
+                <!-- Pregunta 2 -->
+                <div class="bg-[#131c2e]/80 backdrop-blur rounded-2xl border border-slate-800 overflow-hidden transition">
+                    <button onclick="toggleFaq(2)" class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-white text-base">¿Los planes residenciales (Línea Green) tienen cobro de IVA?</span>
+                        <span id="icon-2" class="text-[#00f2fe] font-extrabold text-xl transition-transform duration-300">+</span>
+                    </button>
+                    <div id="faq-2" class="hidden px-6 pb-5 text-sm text-slate-400 leading-relaxed border-t border-slate-800/50 pt-4">
+                        De acuerdo con la normatividad legal colombiana vigente, los servicios de internet domiciliario para estratos 1, 2 y 3 cuentan con beneficios tributarios (excluidos o con trato especial de IVA). Nuestros precios de la Línea Green reflejan el valor final para hogares.
+                    </div>
+                </div>
+
+                <!-- Pregunta 3 -->
+                <div class="bg-[#131c2e]/80 backdrop-blur rounded-2xl border border-slate-800 overflow-hidden transition">
+                    <button onclick="toggleFaq(3)" class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-white text-base">¿Cuál es el tiempo estimado de instalación en Girardota?</span>
+                        <span id="icon-3" class="text-[#00f2fe] font-extrabold text-xl transition-transform duration-300">+</span>
+                    </button>
+                    <div id="faq-3" class="hidden px-6 pb-5 text-sm text-slate-400 leading-relaxed border-t border-slate-800/50 pt-4">
+                        Una vez validada la viabilidad técnica de línea de vista en tu dirección o vereda, nuestras cuadrillas locales realizan la instalación profesional y configuración de la red Wi-Fi MESH en un plazo de 24 a 48 horas hábiles.
+                    </div>
+                </div>
+
+                <!-- Pregunta 4 -->
+                <div class="bg-[#131c2e]/80 backdrop-blur rounded-2xl border border-slate-800 overflow-hidden transition">
+                    <button onclick="toggleFaq(4)" class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-white text-base">¿Qué diferencia hay entre la Línea Green y la Línea Blue?</span>
+                        <span id="icon-4" class="text-[#00f2fe] font-extrabold text-xl transition-transform duration-300">+</span>
+                    </button>
+                    <div id="faq-4" class="hidden px-6 pb-5 text-sm text-slate-400 leading-relaxed border-t border-slate-800/50 pt-4">
+                        La <strong>Línea Green</strong> está diseñada para hogares, fincas y consumo residencial con tráfico ilimitado y tecnología WiFi Dual/MESH. La <strong>Línea Blue</strong> está orientada a comercios, empresas y centros de eventos en Girardota, e incluye condiciones fiscales con IVA y opciones de soporte prioritario empresarial o enlaces dedicados.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SCRIPT PARA EL ACORDEÓN DE FAQ -->
+    <script>
+        function toggleFaq(id) {
+            const content = document.getElementById(`faq-${id}`);
+            const icon = document.getElementById(`icon-${id}`);
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.innerText = "-";
+            } else {
+                content.classList.add('hidden');
+                icon.innerText = "+";
+            }
+        }
+    </script>
+
     </header>
         <!-- SECCIÓN DE COBERTURA INTERACTIVA -->
     <section id="cobertura" class="py-24 bg-[#0b0f19] relative border-t border-slate-800/60">
