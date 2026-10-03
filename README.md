@@ -189,6 +189,48 @@
             </div>
         </div>
     </section>
+    <!-- SOPORTE LOCAL Y WHATSAPP DIRECTO -->
+    <section id="soporte" class="py-24 bg-[#0b0f19] border-t border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-xs text-emerald-400 font-medium">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                        <span>Atención Humana y Local en Girardota</span>
+                    </div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white">¿Dudas sobre cobertura o tu sector específico?</h2>
+                    <p class="text-slate-300">
+                        No tratamos con centrales automáticas lejanas. Habla directamente con nuestro equipo técnico local para validar la línea de vista de tu hogar, finca o negocio de forma inmediata.
+                    </p>
+                    <div class="space-y-4 pt-2">
+                        <div class="flex items-center space-x-3 text-slate-300 text-sm">
+                            <div class="w-8 h-8 rounded-lg bg-[#00f2fe]/10 flex items-center justify-center text-[#00f2fe] font-bold">✓</div>
+                            <span>Visita técnica y diagnóstico de línea de vista</span>
+                        </div>
+                        <div class="flex items-center space-x-3 text-slate-300 text-sm">
+                            <div class="w-8 h-8 rounded-lg bg-[#00f2fe]/10 flex items-center justify-center text-[#00f2fe] font-bold">✓</div>
+                            <span>Instalación rápida adaptada a tu zona (Urbana o Veredal)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6">
+                    <div class="bg-[#131c2e] rounded-3xl p-8 border border-slate-800 glow-cyan relative overflow-hidden">
+                        <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-[#00f2fe]/10 rounded-full blur-3xl"></div>
+                        <h3 class="text-2xl font-bold text-white mb-4">Canal Directo de Ventas</h3>
+                        <p class="text-slate-400 text-sm mb-8">
+                            Haz clic en el botón para iniciar una conversación inmediata por WhatsApp con un asesor técnico de Geolink.
+                        </p>
+                        <a href="https://wa.me/573000000000?text=Hola%20Geolink,%20quiero%20consultar%20cobertura%20e%20internet%20inalámbrico%20en%20Girardota" target="_blank" class="flex items-center justify-center space-x-3 w-full py-4 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-black font-extrabold text-center transition shadow-lg shadow-emerald-500/20">
+                            <span class="text-xl">💬</span>
+                            <span>Abrir Chat de WhatsApp Directo</span>
+                        </a>
+                        <p class="text-xs text-slate-500 text-center mt-4">Respuesta rápida en horario hábil regional.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- FOOTER -->
     <footer class="bg-[#070a12] border-t border-slate-800/80 py-8 text-center text-xs text-slate-500">
