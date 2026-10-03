@@ -1,4 +1,3 @@
-# geolink-web-test
 <!DOCTYPE html>
 <html lang="es" class="dark">
 <head>
@@ -42,7 +41,6 @@
             
             <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
                 <a href="#planes" class="hover:text-[#00f2fe] transition">Planes Inalámbricos</a>
-                <a href="#tecnologia" class="hover:text-[#00f2fe] transition">Tecnología FWA / WiMAX</a>
                 <a href="#soporte" class="hover:text-[#00f2fe] transition">Soporte Local</a>
             </nav>
 
@@ -92,9 +90,100 @@
                                 </div>
                             </div>
                             <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 text-xs text-slate-400">
-                                📡 Cobertura garantizada por línea de vista directa con equipos CPE de última generación.
+                                📡 Cobertura garantizada por línea de vista directa con equipos de última generación.
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SELECTOR INTELIGENTE DE PLANES INALÁMBRICOS -->
+    <section id="planes" class="py-24 bg-[#0d1322] border-t border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Selector Inteligente de Planes</h2>
+                <p class="text-slate-400">Soluciones de alta capacidad diseñadas para hogares, fincas y negocios en Girardota y el norte del Valle de Aburrá, con tarifas transparentes.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- PLAN RESIDENCIAL (ESTRATOS 1 - 3) -->
+                <div class="bg-[#131c2e] rounded-3xl p-8 border border-slate-800 flex flex-col justify-between relative group hover:border-[#00f2fe]/50 transition">
+                    <div class="absolute -top-3 right-6 px-3 py-1 bg-[#00f2fe] text-black text-xs font-bold rounded-full uppercase tracking-wider">
+                        Estratos 1 al 3
+                    </div>
+                    <div>
+                        <div class="flex items-center space-x-3 mb-6">
+                            <div class="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-[#00f2fe] text-2xl font-bold">
+                                🏠
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Hogar & Fincas Residencial</h3>
+                                <p class="text-xs text-slate-400">Especial para zonas urbanas y rurales (Veredas)</p>
+                            </div>
+                        </div>
+                        <div class="space-y-4 mb-8">
+                            <div class="flex items-center space-x-3 text-sm text-slate-300">
+                                <span class="text-[#00f2fe]">✓</span> <span>Velocidad simétrica y estable</span>
+                            </div>
+                            <div class="flex items-center space-x-3 text-sm text-slate-300">
+                                <span class="text-[#00f2fe]">✓</span> <span>Tecnología Inalámbrica (FWA / Wi-Fi 6)</span>
+                            </div>
+                            <div class="flex items-center space-x-3 text-sm text-slate-300">
+                                <span class="text-[#00f2fe]">✓</span> <span><strong>Excluido de IVA</strong> (Ley colombiana)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-baseline justify-between mb-6 pt-4 border-t border-slate-800">
+                            <span class="text-sm text-slate-400">Tarifa neta</span>
+                            <div>
+                                <span class="text-2xl font-extrabold text-white">A Medida</span>
+                                <span class="text-xs text-slate-400 block text-right">0% IVA (Estratos 1-3)</span>
+                            </div>
+                        </div>
+                        <a href="#soporte" class="block w-full py-3.5 rounded-xl bg-slate-800 hover:bg-[#00f2fe] hover:text-black font-semibold text-center transition">
+                            Consultar Viabilidad Hogar
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PLAN COMERCIAL / ESTRATO 4 EN ADELANTE -->
+                <div class="bg-[#131c2e] rounded-3xl p-8 border border-slate-800 flex flex-col justify-between hover:border-[#00f2fe]/50 transition">
+                    <div>
+                        <div class="flex items-center space-x-3 mb-6">
+                            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-[#00f2fe] text-2xl font-bold">
+                                🏢
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Comercial / Estrato 4+</h3>
+                                <p class="text-xs text-slate-400">Para negocios, empresas y residencias desde estrato 4</p>
+                            </div>
+                        </div>
+                        <div class="space-y-4 mb-8">
+                            <div class="flex items-center space-x-3 text-sm text-slate-300">
+                                <span class="text-[#00f2fe]">✓</span> <span>Enlace inalámbrico dedicado y seguro</span>
+                            </div>
+                            <div class="flex items-center space-x-3 text-sm text-slate-300">
+                                <span class="text-[#00f2fe]">✓</span> <span>Soporte técnico prioritario regional</span>
+                            </div>
+                            <div class="flex items-center space-x-3 text-sm text-slate-300">
+                                <span class="text-[#00f2fe]">✓</span> <span>Incluye gravámenes de ley (IVA aplicable)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-baseline justify-between mb-6 pt-4 border-t border-slate-800">
+                            <span class="text-sm text-slate-400">Planes corporativos</span>
+                            <div>
+                                <span class="text-2xl font-extrabold text-white">Dedicado</span>
+                                <span class="text-xs text-slate-400 block text-right">Cotización con IVA incluido</span>
+                            </div>
+                        </div>
+                        <a href="#soporte" class="block w-full py-3.5 rounded-xl bg-gradient-to-r from-[#00f2fe] to-[#4facfe] text-black font-bold text-center hover:glow-cyan transition">
+                            Cotizar para mi Negocio
+                        </a>
                     </div>
                 </div>
             </div>
