@@ -100,36 +100,36 @@
     </section>
 
     <!-- SELECTOR INTELIGENTE DE PLANES INALÁMBRICOS -->
-        <    <!-- SMART PLAN SELECTOR -->
+            <!-- SMART PLAN SELECTOR -->
     <section id="planes" class="py-24 bg-[#0b0f19] relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <h2 class="text-xs uppercase tracking-widest text-[#00f2fe] font-bold mb-3">Selector Inteligente de Planes</h2>
                 <h3 class="text-3xl sm:text-4xl font-extrabold text-white">Conectividad de Alta Capacidad en Girardota</h3>
-                <p class="text-slate-400 mt-4">Planes diseñados bajo marco legal colombiano: Estratos 1 a 3 <strong>excluidos de IVA (0%)</strong>. Soluciones comerciales y corporativas de la línea Blue con IVA aplicable.</p>
+                <p class="text-slate-400 mt-4">Información basada en la oferta oficial de Geolink: Línea Green residencial y Línea Blue comercial con especificaciones reales.</p>
             </div>
 
             <!-- GRID DE PLANES -->
             <div class="grid lg:grid-cols-2 gap-8 items-start">
                 
-                <!-- COLUMNA RESIDENCIAL (ESTRATOS 1-3) -->
+                <!-- COLUMNA RESIDENCIAL (LÍNEA GREEN) -->
                 <div class="bg-[#131c2e]/80 backdrop-blur rounded-3xl p-8 border border-slate-800 relative">
                     <div class="absolute -top-3 left-8 bg-[#00f2fe] text-black text-xs font-extrabold px-3 py-1 rounded-full uppercase">
-                        Residencial (Estratos 1-3) • 0% IVA
+                        Línea Green (Residencial) • Tráfico Ilimitado
                     </div>
                     <h4 class="text-2xl font-bold text-white mt-4 mb-2">Hogar & Fincas</h4>
-                    <p class="text-slate-400 text-sm mb-6">Tráfico ilimitado con tecnología Wi-Fi Dual Band / Mesh para zonas urbanas y rurales.</p>
+                    <p class="text-slate-400 text-sm mb-6">Conectividad estable con Wi-Fi Dual Band y tecnología MESH para zonas urbanas y rurales.</p>
 
                     <div class="space-y-4">
                         <!-- Green 15M -->
                         <div class="p-4 rounded-2xl bg-[#0b0f19] border border-slate-800/80 flex items-center justify-between">
                             <div>
-                                <span class="text-xs text-[#00f2fe] font-semibold">GREEN 15M (Estrato 1)</span>
+                                <span class="text-xs text-[#00f2fe] font-semibold">GREEN 15M</span>
                                 <h5 class="text-xl font-bold text-white">15 Mbps</h5>
-                                <p class="text-xs text-slate-400">Soporte hasta 10 dispositivos • Sin permanencia</p>
+                                <p class="text-xs text-slate-400">Soporte hasta 10 dispositivos • 1 Zona WiFi Dual</p>
                             </div>
                             <div class="text-right">
-                                <span class="text-lg font-extrabold text-white">$97.500 <span class="text-xs text-slate-400">COP</span></span>
+                                <span class="text-lg font-extrabold text-white">$97.500 <span class="text-xs text-slate-400">/mes</span></span>
                                 <a href="https://wa.me/573000000000?text=Hola%20Geolink,%20quiero%20el%20Plan%20Green%2015M" target="_blank" class="block mt-2 px-4 py-1.5 rounded-lg bg-[#00f2fe]/10 hover:bg-[#00f2fe] text-[#00f2fe] hover:text-black font-bold text-xs transition">Seleccionar</a>
                             </div>
                         </div>
@@ -137,12 +137,12 @@
                         <!-- Green 30M -->
                         <div class="p-4 rounded-2xl bg-[#0b0f19] border border-slate-800/80 flex items-center justify-between">
                             <div>
-                                <span class="text-xs text-[#00f2fe] font-semibold">GREEN 30M (Estrato 2)</span>
+                                <span class="text-xs text-[#00f2fe] font-semibold">GREEN 30M</span>
                                 <h5 class="text-xl font-bold text-white">30 Mbps</h5>
-                                <p class="text-xs text-slate-400">2 Zonas Wi-Fi MESH • Alta productividad</p>
+                                <p class="text-xs text-slate-400">Soporte hasta 15 dispositivos • 2 Zonas WiFi MESH</p>
                             </div>
                             <div class="text-right">
-                                <span class="text-lg font-extrabold text-white">$127.500 <span class="text-xs text-slate-400">COP</span></span>
+                                <span class="text-lg font-extrabold text-white">$127.500 <span class="text-xs text-slate-400">/mes</span></span>
                                 <a href="https://wa.me/573000000000?text=Hola%20Geolink,%20quiero%20el%20Plan%20Green%2030M" target="_blank" class="block mt-2 px-4 py-1.5 rounded-lg bg-[#00f2fe]/10 hover:bg-[#00f2fe] text-[#00f2fe] hover:text-black font-bold text-xs transition">Seleccionar</a>
                             </div>
                         </div>
@@ -150,50 +150,50 @@
                         <!-- Green 50M -->
                         <div class="p-4 rounded-2xl bg-[#0b0f19] border border-slate-800/80 flex items-center justify-between">
                             <div>
-                                <span class="text-xs text-[#00f2fe] font-semibold">GREEN 50M (Estrato 3)</span>
+                                <span class="text-xs text-[#00f2fe] font-semibold">GREEN 50M</span>
                                 <h5 class="text-xl font-bold text-white">50 Mbps</h5>
-                                <p class="text-xs text-slate-400">Soporte hasta 25 dispositivos • Trabajo y entretenimiento</p>
+                                <p class="text-xs text-slate-400">Soporte hasta 25 dispositivos • WiFi Dual Band</p>
                             </div>
                             <div class="text-right">
-                                <span class="text-lg font-extrabold text-white">$154.500 <span class="text-xs text-slate-400">COP</span></span>
+                                <span class="text-lg font-extrabold text-white">$154.500 <span class="text-xs text-slate-400">/mes</span></span>
                                 <a href="https://wa.me/573000000000?text=Hola%20Geolink,%20quiero%20el%20Plan%20Green%2050M" target="_blank" class="block mt-2 px-4 py-1.5 rounded-lg bg-[#00f2fe]/10 hover:bg-[#00f2fe] text-[#00f2fe] hover:text-black font-bold text-xs transition">Seleccionar</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- COLUMNA COMERCIAL / EMPRESARIAL (LÍNEA BLUE) -->
+                <!-- COLUMNA COMERCIAL / CORPORATIVO (LÍNEA BLUE) -->
                 <div class="bg-[#131c2e]/80 backdrop-blur rounded-3xl p-8 border border-slate-800 relative">
                     <div class="absolute -top-3 left-8 bg-amber-400 text-black text-xs font-extrabold px-3 py-1 rounded-full uppercase">
-                        Comercial & Corporativo (Línea Blue + IVA)
+                        Línea Blue (Comercial & Corporativo)
                     </div>
                     <h4 class="text-2xl font-bold text-white mt-4 mb-2">Negocios y Empresas</h4>
-                    <p class="text-slate-400 text-sm mb-6">Soluciones orientadas a generar valor y estabilidad en empresas y centros de eventos.</p>
+                    <p class="text-slate-400 text-sm mb-6">Soluciones avanzadas, innovación en centros de eventos y soporte especializado para empresas.</p>
 
                     <div class="space-y-4">
                         <!-- Blue 50M -->
                         <div class="p-4 rounded-2xl bg-[#0b0f19] border border-slate-800/80 flex items-center justify-between">
                             <div>
-                                <span class="text-xs text-amber-400 font-semibold">BLUE 50M (Comercial)</span>
+                                <span class="text-xs text-amber-400 font-semibold">BLUE 50M</span>
                                 <h5 class="text-xl font-bold text-white">50 Mbps</h5>
-                                <p class="text-xs text-slate-400">Innovación y gestión de visitantes</p>
+                                <p class="text-xs text-slate-400">Centros de eventos • Gestión de visitantes</p>
                             </div>
                             <div class="text-right">
                                 <span class="text-lg font-extrabold text-white">$194.600 <span class="text-xs text-slate-400">+ IVA</span></span>
-                                <a href="https://wa.me/573000000000?text=Hola%20Geolink,%20estoy%20interesado%20en%20el%20Plan%20Blue%2050M%20Comercial" target="_blank" class="block mt-2 px-4 py-1.5 rounded-lg bg-amber-400/10 hover:bg-amber-400 text-amber-400 hover:text-black font-bold text-xs transition">Seleccionar</a>
+                                <a href="https://wa.me/573000000000?text=Hola%20Geolink,%20quiero%20el%20Plan%20Blue%2050M" target="_blank" class="block mt-2 px-4 py-1.5 rounded-lg bg-amber-400/10 hover:bg-amber-400 text-amber-400 hover:text-black font-bold text-xs transition">Seleccionar</a>
                             </div>
                         </div>
 
                         <!-- Blue 100M -->
                         <div class="p-4 rounded-2xl bg-[#0b0f19] border border-slate-800/80 flex items-center justify-between">
                             <div>
-                                <span class="text-xs text-amber-400 font-semibold">BLUE 100M (Empresarial)</span>
+                                <span class="text-xs text-amber-400 font-semibold">BLUE 100M</span>
                                 <h5 class="text-xl font-bold text-white">100 Mbps</h5>
-                                <p class="text-xs text-slate-400">Soporte técnico 24/7 y personalización total</p>
+                                <p class="text-xs text-slate-400">Solución integral • Soporte técnico 24/7</p>
                             </div>
                             <div class="text-right">
                                 <span class="text-lg font-extrabold text-white">$250.000 <span class="text-xs text-slate-400">+ IVA</span></span>
-                                <a href="https://wa.me/573000000000?text=Hola%20Geolink,%20estoy%20interesado%20en%20el%20Plan%20Blue%20100M%20Empresarial" target="_blank" class="block mt-2 px-4 py-1.5 rounded-lg bg-amber-400/10 hover:bg-amber-400 text-amber-400 hover:text-black font-bold text-xs transition">Seleccionar</a>
+                                <a href="https://wa.me/573000000000?text=Hola%20Geolink,%20quiero%20el%20Plan%20Blue%20100M" target="_blank" class="block mt-2 px-4 py-1.5 rounded-lg bg-amber-400/10 hover:bg-amber-400 text-amber-400 hover:text-black font-bold text-xs transition">Seleccionar</a>
                             </div>
                         </div>
 
@@ -202,11 +202,11 @@
                             <div>
                                 <span class="text-xs text-amber-400 font-semibold">ENLACE DEDICADO</span>
                                 <h5 class="text-xl font-bold text-white">Punto a Punto</h5>
-                                <p class="text-xs text-slate-400">Hasta 100M simétricos para operaciones críticas</p>
+                                <p class="text-xs text-slate-400">Hasta 100M simétricos y baja latencia</p>
                             </div>
                             <div class="text-right">
                                 <span class="text-lg font-extrabold text-white">A Medida</span>
-                                <a href="https://wa.me/573000000000?text=Hola%20Geolink,%20quiero%20diseñar%20un%20Enlace%20Punto%20a%20Punto%20corporativo" target="_blank" class="block mt-2 px-4 py-1.5 rounded-lg bg-amber-400/10 hover:bg-amber-400 text-amber-400 hover:text-black font-bold text-xs transition">Cotizar</a>
+                                <a href="https://wa.me/573000000000?text=Hola%20Geolink,%20quiero%20consultar%20sobre%20Enlace%20Punto%20a%20Punto" target="_blank" class="block mt-2 px-4 py-1.5 rounded-lg bg-amber-400/10 hover:bg-amber-400 text-amber-400 hover:text-black font-bold text-xs transition">Consultar</a>
                             </div>
                         </div>
                     </div>
