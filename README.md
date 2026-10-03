@@ -100,95 +100,122 @@
     </section>
 
     <!-- SELECTOR INTELIGENTE DE PLANES INALÁMBRICOS -->
-    <section id="planes" class="py-24 bg-[#0d1322] border-t border-slate-800/80">
+        <!-- SMART PLAN SELECTOR -->
+    <section id="planes" class="py-24 bg-[#0b0f19] relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Selector Inteligente de Planes</h2>
-                <p class="text-slate-400">Soluciones de alta capacidad diseñadas para hogares, fincas y negocios en Girardota y el norte del Valle de Aburrá, con tarifas transparentes.</p>
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-[#00f2fe] font-bold mb-3">Selector Inteligente de Planes</h2>
+                <h3 class="text-3xl sm:text-4xl font-extrabold text-white">Conectividad de Alta Capacidad en Girardota</h3>
+                <p class="text-slate-400 mt-4">Planes diseñados bajo marco legal colombiano: Estratos 1 a 3 <strong>excluidos de IVA (0%)</strong>. Soluciones comerciales y corporativas con IVA aplicable.</p>
             </div>
 
-            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-                <!-- PLAN RESIDENCIAL (ESTRATOS 1 - 3) -->
-                <div class="bg-[#131c2e] rounded-3xl p-8 border border-slate-800 flex flex-col justify-between relative group hover:border-[#00f2fe]/50 transition">
-                    <div class="absolute -top-3 right-6 px-3 py-1 bg-[#00f2fe] text-black text-xs font-bold rounded-full uppercase tracking-wider">
-                        Estratos 1 al 3
+            <!-- GRID DE PLANES -->
+            <div class="grid lg:grid-cols-2 gap-8 items-start">
+                
+                <!-- COLUMNA RESIDENCIAL (ESTRATOS 1-3) -->
+                <div class="bg-[#131c2e]/80 backdrop-blur rounded-3xl p-8 border border-slate-800 relative">
+                    <div class="absolute -top-3 left-8 bg-[#00f2fe] text-black text-xs font-extrabold px-3 py-1 rounded-full uppercase">
+                        Residencial (Estratos 1-3) • 0% IVA
                     </div>
-                    <div>
-                        <div class="flex items-center space-x-3 mb-6">
-                            <div class="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-[#00f2fe] text-2xl font-bold">
-                                🏠
-                            </div>
+                    <h4 class="text-2xl font-bold text-white mt-4 mb-2">Hogar & Fincas</h4>
+                    <p class="text-slate-400 text-sm mb-6">Ideal para streaming, teletrabajo y conectividad veredal o urbana sin fibra.</p>
+
+                    <div class="space-y-4">
+                        <!-- Plan Bronce -->
+                        <div class="p-4 rounded-2xl bg-[#0b0f19] border border-slate-800/80 flex items-center justify-between">
                             <div>
-                                <h3 class="text-xl font-bold text-white">Hogar & Fincas Residencial</h3>
-                                <p class="text-xs text-slate-400">Especial para zonas urbanas y rurales (Veredas)</p>
+                                <span class="text-xs text-[#00f2fe] font-semibold">PLAN BRONCE (Estrato 1)</span>
+                                <h5 class="text-xl font-bold text-white">50 Mbps</h5>
+                                <p class="text-xs text-slate-400">Wi-Fi Dual Band • Sin cláusula de permanencia</p>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-lg font-extrabold text-white">$60.000 <span class="text-xs text-slate-400">COP</span></span>
+                                <a href="https://wa.me/573000000000?text=Hola%20Geolink,%20quiero%20el%20Plan%20Bronce%20Residencial" target="_blank" class="block mt-2 px-4 py-1.5 rounded-lg bg-[#00f2fe]/10 hover:bg-[#00f2fe] text-[#00f2fe] hover:text-black font-bold text-xs transition">Seleccionar</a>
                             </div>
                         </div>
-                        <div class="space-y-4 mb-8">
-                            <div class="flex items-center space-x-3 text-sm text-slate-300">
-                                <span class="text-[#00f2fe]">✓</span> <span>Velocidad simétrica y estable</span>
-                            </div>
-                            <div class="flex items-center space-x-3 text-sm text-slate-300">
-                                <span class="text-[#00f2fe]">✓</span> <span>Tecnología Inalámbrica (FWA / Wi-Fi 6)</span>
-                            </div>
-                            <div class="flex items-center space-x-3 text-sm text-slate-300">
-                                <span class="text-[#00f2fe]">✓</span> <span><strong>Excluido de IVA</strong> (Ley colombiana)</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="flex items-baseline justify-between mb-6 pt-4 border-t border-slate-800">
-                            <span class="text-sm text-slate-400">Tarifa neta</span>
+
+                        <!-- Plan Plata -->
+                        <div class="p-4 rounded-2xl bg-[#0b0f19] border border-slate-800/80 flex items-center justify-between">
                             <div>
-                                <span class="text-2xl font-extrabold text-white">A Medida</span>
-                                <span class="text-xs text-slate-400 block text-right">0% IVA (Estratos 1-3)</span>
+                                <span class="text-xs text-[#00f2fe] font-semibold">PLAN PLATA (Estrato 2)</span>
+                                <h5 class="text-xl font-bold text-white">100 Mbps</h5>
+                                <p class="text-xs text-slate-400">Wi-Fi Dual Band • Sin cláusula de permanencia</p>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-lg font-extrabold text-white">$90.000 <span class="text-xs text-slate-400">COP</span></span>
+                                <a href="https://wa.me/573000000000?text=Hola%20Geolink,%20quiero%20el%20Plan%20Plata%20Residencial" target="_blank" class="block mt-2 px-4 py-1.5 rounded-lg bg-[#00f2fe]/10 hover:bg-[#00f2fe] text-[#00f2fe] hover:text-black font-bold text-xs transition">Seleccionar</a>
                             </div>
                         </div>
-                        <a href="#soporte" class="block w-full py-3.5 rounded-xl bg-slate-800 hover:bg-[#00f2fe] hover:text-black font-semibold text-center transition">
-                            Consultar Viabilidad Hogar
-                        </a>
+
+                        <!-- Plan Oro -->
+                        <div class="p-4 rounded-2xl bg-[#0b0f19] border border-slate-800/80 flex items-center justify-between">
+                            <div>
+                                <span class="text-xs text-[#00f2fe] font-semibold">PLAN ORO (Estrato 3)</span>
+                                <h5 class="text-xl font-bold text-white">200 Mbps</h5>
+                                <p class="text-xs text-slate-400">Wi-Fi Dual Band • Sin cláusula de permanencia</p>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-lg font-extrabold text-white">$120.000 <span class="text-xs text-slate-400">COP</span></span>
+                                <a href="https://wa.me/573000000000?text=Hola%20Geolink,%20quiero%20el%20Plan%20Oro%20Residencial" target="_blank" class="block mt-2 px-4 py-1.5 rounded-lg bg-[#00f2fe]/10 hover:bg-[#00f2fe] text-[#00f2fe] hover:text-black font-bold text-xs transition">Seleccionar</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <!-- PLAN COMERCIAL / ESTRATO 4 EN ADELANTE -->
-                <div class="bg-[#131c2e] rounded-3xl p-8 border border-slate-800 flex flex-col justify-between hover:border-[#00f2fe]/50 transition">
-                    <div>
-                        <div class="flex items-center space-x-3 mb-6">
-                            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-[#00f2fe] text-2xl font-bold">
-                                🏢
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-bold text-white">Comercial / Estrato 4+</h3>
-                                <p class="text-xs text-slate-400">Para negocios, empresas y residencias desde estrato 4</p>
-                            </div>
-                        </div>
-                        <div class="space-y-4 mb-8">
-                            <div class="flex items-center space-x-3 text-sm text-slate-300">
-                                <span class="text-[#00f2fe]">✓</span> <span>Enlace inalámbrico dedicado y seguro</span>
-                            </div>
-                            <div class="flex items-center space-x-3 text-sm text-slate-300">
-                                <span class="text-[#00f2fe]">✓</span> <span>Soporte técnico prioritario regional</span>
-                            </div>
-                            <div class="flex items-center space-x-3 text-sm text-slate-300">
-                                <span class="text-[#00f2fe]">✓</span> <span>Incluye gravámenes de ley (IVA aplicable)</span>
-                            </div>
-                        </div>
+                <!-- COLUMNA COMERCIAL / EMPRESARIAL -->
+                <div class="bg-[#131c2e]/80 backdrop-blur rounded-3xl p-8 border border-slate-800 relative">
+                    <div class="absolute -top-3 left-8 bg-amber-400 text-black text-xs font-extrabold px-3 py-1 rounded-full uppercase">
+                        Comercial & Corporativo (IVA Aplicable)
                     </div>
-                    <div>
-                        <div class="flex items-baseline justify-between mb-6 pt-4 border-t border-slate-800">
-                            <span class="text-sm text-slate-400">Planes corporativos</span>
+                    <h4 class="text-2xl font-bold text-white mt-4 mb-2">Negocios y Empresas</h4>
+                    <p class="text-slate-400 text-sm mb-6">Ancho de banda dedicado, alta estabilidad y soporte prioritario para comercios.</p>
+
+                    <div class="space-y-4">
+                        <!-- Negocio Pequeño -->
+                        <div class="p-4 rounded-2xl bg-[#0b0f19] border border-slate-800/80 flex items-center justify-between">
                             <div>
-                                <span class="text-2xl font-extrabold text-white">Dedicado</span>
-                                <span class="text-xs text-slate-400 block text-right">Cotización con IVA incluido</span>
+                                <span class="text-xs text-amber-400 font-semibold">COMERCIO LOCAL</span>
+                                <h5 class="text-xl font-bold text-white">150 Mbps</h5>
+                                <p class="text-xs text-slate-400">Ideal para datáfonos y puntos de venta en Girardota</p>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-lg font-extrabold text-white">Cotizar</span>
+                                <a href="https://wa.me/573000000000?text=Hola%20Geolink,%20necesito%20cotizar%20Internet%20para%20Comercio" target="_blank" class="block mt-2 px-4 py-1.5 rounded-lg bg-amber-400/10 hover:bg-amber-400 text-amber-400 hover:text-black font-bold text-xs transition">Consultar</a>
                             </div>
                         </div>
-                        <a href="#soporte" class="block w-full py-3.5 rounded-xl bg-gradient-to-r from-[#00f2fe] to-[#4facfe] text-black font-bold text-center hover:glow-cyan transition">
-                            Cotizar para mi Negocio
-                        </a>
+
+                        <!-- Empresa Mediana -->
+                        <div class="p-4 rounded-2xl bg-[#0b0f19] border border-slate-800/80 flex items-center justify-between">
+                            <div>
+                                <span class="text-xs text-amber-400 font-semibold">EMPRESA / ESTRATO 4+</span>
+                                <h5 class="text-xl font-bold text-white">300 Mbps</h5>
+                                <p class="text-xs text-slate-400">Alta concurrencia y estabilidad garantizada</p>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-lg font-extrabold text-white">Cotizar</span>
+                                <a href="https://wa.me/573000000000?text=Hola%20Geolink,%20necesito%20cotizar%20Empresa%20Mediana" target="_blank" class="block mt-2 px-4 py-1.5 rounded-lg bg-amber-400/10 hover:bg-amber-400 text-amber-400 hover:text-black font-bold text-xs transition">Consultar</a>
+                            </div>
+                        </div>
+
+                        <!-- Punto a Punto Empresarial -->
+                        <div class="p-4 rounded-2xl bg-[#0b0f19] border border-slate-800/80 flex items-center justify-between">
+                            <div>
+                                <span class="text-xs text-amber-400 font-semibold">ENLACE DEDICADO</span>
+                                <h5 class="text-xl font-bold text-white">Punto a Punto</h5>
+                                <p class="text-xs text-slate-400">Simétrico y dedicado para operaciones críticas</p>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-lg font-extrabold text-white">A Medida</span>
+                                <a href="https://wa.me/573000000000?text=Hola%20Geolink,%20quiero%20diseñar%20un%20Enlace%20Punto%20a%20Punto" target="_blank" class="block mt-2 px-4 py-1.5 rounded-lg bg-amber-400/10 hover:bg-amber-400 text-amber-400 hover:text-black font-bold text-xs transition">Diseñar Enlace</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
+
     <!-- SOPORTE LOCAL Y WHATSAPP DIRECTO -->
     <section id="soporte" class="py-24 bg-[#0b0f19] border-t border-slate-800/80">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
