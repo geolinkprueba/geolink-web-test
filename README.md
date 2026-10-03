@@ -51,6 +51,94 @@
             </div>
         </div>
     </header>
+        <!-- SECCIÓN DE COBERTURA INTERACTIVA -->
+    <section id="cobertura" class="py-24 bg-[#0b0f19] relative border-t border-slate-800/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-[#00f2fe] font-bold mb-3">Infraestructura Regional</h2>
+                <h3 class="text-3xl sm:text-4xl font-extrabold text-white">Cobertura Inalámbrica FWA en Girardota y el Norte del Aburrá</h3>
+                <p class="text-slate-400 mt-4">Llevamos internet de alta velocidad con línea de vista directa (LOS) tanto al casco urbano como a veredas, sectores rurales y fincas de la región.</p>
+            </div>
+
+            <!-- GRID DE ZONAS Y VERIFICADOR -->
+            <div class="grid lg:grid-cols-3 gap-8 items-stretch">
+                
+                <!-- ZONA URBANA -->
+                <div class="bg-[#131c2e]/80 backdrop-blur rounded-3xl p-8 border border-slate-800 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-[#00f2fe]/10 flex items-center justify-center text-[#00f2fe] font-bold mb-6 text-xl">
+                            🏙️
+                        </div>
+                        <h4 class="text-xl font-bold text-white mb-3">Casco Urbano Girardota</h4>
+                        <p class="text-slate-400 text-sm mb-6">Conectividad robusta para hogares, conjuntos residenciales y locales comerciales en el área urbana con despliegue inmediato.</p>
+                        <ul class="space-y-2 text-xs text-slate-300 mb-6">
+                            <li class="flex items-center"><span class="text-[#00f2fe] mr-2">✓</span> Instalación prioritaria en 24-48h</li>
+                            <li class="flex items-center"><span class="text-[#00f2fe] mr-2">✓</span> Estabilidad frente a cortes eléctricos</li>
+                            <li class="flex items-center"><span class="text-[#00f2fe] mr-2">✓</span> Sin cruce de cables urbanos</li>
+                        </ul>
+                    </div>
+                    <span class="inline-block px-3 py-1 bg-emerald-500/10 text-emerald-400 text-xs font-bold rounded-full w-fit">
+                        Cobertura 100% Disponible
+                    </span>
+                </div>
+
+                <!-- ZONA RURAL Y FINCAS -->
+                <div class="bg-[#131c2e]/80 backdrop-blur rounded-3xl p-8 border border-slate-800 flex flex-col justify-between relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-[#00f2fe] text-black text-[10px] font-extrabold px-3 py-1 rounded-bl-xl uppercase">
+                        Especialidad FWA
+                    </div>
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-[#00f2fe]/10 flex items-center justify-center text-[#00f2fe] font-bold mb-6 text-xl">
+                            🏡
+                        </div>
+                        <h4 class="text-xl font-bold text-white mb-3">Veredas, Fincas y Zonas Rurales</h4>
+                        <p class="text-slate-400 text-sm mb-6">Llegamos donde la fibra tradicional no entra. Enlaces especializados de largo alcance con estaciones base de alta potencia en las montañas del norte del Aburrá.</p>
+                        <ul class="space-y-2 text-xs text-slate-300 mb-6">
+                            <li class="flex items-center"><span class="text-[#00f2fe] mr-2">✓</span> Enlaces punto a multipunto dedicados</li>
+                            <li class="flex items-center"><span class="text-[#00f2fe] mr-2">✓</span> Ideal para descanso, trabajo remoto y cámaras</li>
+                            <li class="flex items-center"><span class="text-[#00f2fe] mr-2">✓</span> Equipos industriales aptos para intemperie</li>
+                        </ul>
+                    </div>
+                    <span class="inline-block px-3 py-1 bg-emerald-500/10 text-emerald-400 text-xs font-bold rounded-full w-fit">
+                        Alta Demanda / Viabilidad por Vereda
+                    </span>
+                </div>
+
+                <!-- TARJETA DE VERIFICACIÓN RÁPIDA -->
+                <div class="bg-gradient-to-br from-[#131c2e] to-[#0b0f19] rounded-3xl p-8 border border-[#00f2fe]/30 flex flex-col justify-between shadow-lg shadow-[#00f2fe]/5">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-[#00f2fe]/20 flex items-center justify-center text-[#00f2fe] font-bold mb-6 text-xl">
+                            📡
+                        </div>
+                        <h4 class="text-xl font-bold text-white mb-2">Verifica tu Viabilidad</h4>
+                        <p class="text-slate-400 text-sm mb-6">¿Estás en zona rural o finca? Nuestros técnicos validan la línea de vista satelital/inalámbrica con tus coordenadas o nombre de vereda.</p>
+                        
+                        <div class="space-y-3 mb-6">
+                            <input type="text" id="verificacion-sector" placeholder="Escribe tu vereda, barrio o sector..." class="w-full bg-[#0b0f19] border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-[#00f2fe] transition">
+                        </div>
+                    </div>
+                    
+                    <button onclick="verificarViabilidad()" class="w-full py-3 rounded-xl bg-[#00f2fe] hover:bg-[#00d8e2] text-black font-extrabold text-sm transition shadow-lg shadow-[#00f2fe]/20 text-center">
+                        Consultar Viabilidad por WhatsApp
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SCRIPT DE INTERACCIÓN RÁPIDA PARA WHATSAPP -->
+    <script>
+        function verificarViabilidad() {
+            const sector = document.getElementById('verificacion-sector').value.trim();
+            const mensaje = sector 
+                ? `Hola Geolink, quiero verificar la viabilidad técnica de internet para el sector/vereda: ${sector}`
+                : `Hola Geolink, quiero verificar la disponibilidad de cobertura en Girardota.`;
+            const urlWhatsApp = `https://wa.me/573000000000?text=${encodeURIComponent(mensaje)}`;
+            window.open(urlWhatsApp, '_blank');
+        }
+    </script>
+
 
     <!-- HERO SECTION -->
     <section class="relative pt-20 pb-32 overflow-hidden">
